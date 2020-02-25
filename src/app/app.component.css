@@ -1,0 +1,44 @@
+app-root {
+    background-color: black;
+}
+
+body {
+    overflow: hidden;
+   }
+   
+   .container {
+     height: 98vh;
+     width: 98vw;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 50px 1fr 30px;
+   }
+   
+   .header {
+     background-color: #222222;
+   }
+   
+   .sidebar {
+     background-color: #222222;
+   }
+   
+   .footer {
+    background-color: #222222;
+   }
+   
+   .body {
+     display: grid;
+     grid-template-columns: 1fr 4fr;
+     overflow: hidden;
+   }
+   
+   .content {
+     overflow-y: scroll;
+     padding: 20px;
+     color: white;
+     background-color: black;
+   }
+   
+   p {
+     max-width: 1000px;
+   }
