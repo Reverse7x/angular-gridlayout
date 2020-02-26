@@ -1,29 +1,33 @@
+
 app-root {
     background-color: black;
 }
 
+
 body {
     overflow: hidden;
+    margin: 0;
+    padding: 0;
    }
    
    .container {
-     height: 98vh;
-     width: 98vw;
+     height: 100vh;
+     width: 100vw;
      display: grid;
      grid-template-columns: 1fr;
      grid-template-rows: 50px 1fr 30px;
    }
    
    .header {
-     background-color: #222222;
+     background-color: #282828;
    }
    
    .sidebar {
-     background-color: #222222;
+     background-color: #3B3B3B;
    }
    
    .footer {
-    background-color: #222222;
+    background-color: #282828;
    }
    
    .body {
